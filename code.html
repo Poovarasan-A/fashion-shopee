@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>LUXE | Premium Fashion Homepage</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1152d4",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                        "neutral-charcoal": "#0d121b",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"],
+                        "serif": ["Playfair Display", "serif"],
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .editorial-overlay {
+            background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.5) 100%);
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-neutral-charcoal dark:text-gray-100 transition-colors duration-300">
+<!-- Sticky Navigation Bar -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-gray-100 dark:border-gray-800">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<!-- Left Side: Navigation Links -->
+<div class="hidden lg:flex items-center gap-8">
+<a class="text-xs uppercase tracking-widest font-semibold hover:text-primary transition-colors" href="#">New Arrivals</a>
+<a class="text-xs uppercase tracking-widest font-semibold hover:text-primary transition-colors" href="#">Collections</a>
+</div>
+<!-- Center: Logo -->
+<div class="absolute left-1/2 -translate-x-1/2 flex items-center gap-2">
+<span class="material-symbols-outlined text-3xl text-primary">diamond</span>
+<h1 class="font-serif text-3xl font-bold tracking-tighter">LUXE</h1>
+</div>
+<!-- Right Side: Secondary Nav & Icons -->
+<div class="flex items-center gap-6">
+<div class="hidden lg:flex items-center gap-8 mr-4">
+<a class="text-xs uppercase tracking-widest font-semibold hover:text-primary transition-colors" href="#">Men</a>
+<a class="text-xs uppercase tracking-widest font-semibold hover:text-primary transition-colors" href="#">Women</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors">
+<span class="material-symbols-outlined">search</span>
+</button>
+<button class="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors relative">
+<span class="material-symbols-outlined">shopping_bag</span>
+<span class="absolute top-1 right-1 bg-primary text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center">2</span>
+</button>
+<button class="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-full transition-colors">
+<span class="material-symbols-outlined">person</span>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative h-screen w-full flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="high fashion editorial model in luxury minimal clothing" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAKbqioNjiaGylHsUhnUaj5e0_oUQthm3fH0-KxtqwwvY3u2e3eAPluQJ14aZy-qP3ScqkFuSZflu87fo24Jv1ggebHzPAiNBa6AwjP9P1rnIGtr0qFbFBvack0wd0ls2P9BIsRZeg3nDQ79kNBURw_77RaxgweTRB28WMSU22w-CQz5P_yw9bXM-ra16BXNk7qh4hvPAvYQ-dPJuC_zETK6maSajgfojlY6fUCsNViLRXV810gDUu4jJm6dpbuG1GorQkwN11gTFA");'>
+<div class="absolute inset-0 editorial-overlay"></div>
+</div>
+<div class="relative z-10 text-center px-4">
+<h2 class="text-white font-serif italic text-2xl md:text-3xl mb-4 opacity-90">Autumn / Winter 2024</h2>
+<h1 class="text-white text-6xl md:text-8xl font-black leading-[0.9] tracking-tighter mb-8 max-w-4xl mx-auto">
+                THE NEW <br/> STANDARD
+            </h1>
+<div class="flex flex-col md:flex-row items-center justify-center gap-4">
+<button class="bg-white text-neutral-charcoal px-10 py-4 font-bold tracking-widest text-sm uppercase hover:bg-primary hover:text-white transition-all duration-300 rounded-sm">
+                    Shop Men
+                </button>
+<button class="bg-white text-neutral-charcoal px-10 py-4 font-bold tracking-widest text-sm uppercase hover:bg-primary hover:text-white transition-all duration-300 rounded-sm">
+                    Shop Women
+                </button>
+</div>
+</div>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+<span class="material-symbols-outlined text-white text-3xl">expand_more</span>
+</div>
+</section>
+<!-- Featured Categories: Staggered Grid -->
+<section class="max-w-7xl mx-auto px-6 py-24">
+<div class="flex flex-col md:flex-row justify-between items-end mb-12">
+<div class="max-w-xl">
+<h3 class="font-serif text-4xl md:text-5xl mb-4">Curated Edits</h3>
+<p class="text-gray-500 dark:text-gray-400 text-lg">Explore our meticulously crafted collections designed for the modern lifestyle.</p>
+</div>
+<a class="group flex items-center gap-2 text-sm font-bold uppercase tracking-widest mt-6 md:mt-0" href="#">
+                View All Categories 
+                <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_right_alt</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[800px]">
+<!-- Large Main Feature -->
+<div class="md:col-span-7 relative group overflow-hidden bg-gray-200">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="Modern winter clothing collection display" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA1IzqIFF44MKbyYUYp9Gvi8DVMADs8vR_oMGzOWTkv7v8wTXRYwrl0tYuRRLhTuBcMpmtt4lh_DpYKwOvJNK0XW5NbLB6RSdO10Gt1gBXyhtL0_5qsCZUm4dvLfOn9pnZQ9xxNzHg7-0fRLmcg8qP_J5KFJEoCGB98hNvBEK3WUL2F1AWgE4eO1rnRarZHJy3t2QbaW7YZN4XOsUfYuo6jydcvnU13VFKdxJgshTrcKz8XSaN3lzHaUX9n_6z2R05Fda34ILL7YhI");'></div>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors"></div>
+<div class="absolute bottom-10 left-10 text-white">
+<p class="text-xs uppercase tracking-[0.3em] mb-2">Featured Collection</p>
+<h4 class="font-serif text-4xl mb-6">The Winter Edit</h4>
+<button class="border border-white px-6 py-2 text-xs uppercase tracking-widest hover:bg-white hover:text-black transition-colors">Explore</button>
+</div>
+</div>
+<!-- Two Smaller Features -->
+<div class="md:col-span-5 flex flex-col gap-6">
+<div class="flex-1 relative group overflow-hidden bg-gray-200">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="minimal soft knitwear texture" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDbRBWytVXZ3FdN0Y9wqgE1QxXLHyLH-mlS5xOsGOddzRSgfWumfRnrQz9skd-x_yXQuT-_RyFKUqwrf_7dp1AFANTzvwscz5DiJPTOjW6RXu1Sj9-hZ2zCj_eq678PcrMeCjuWWPBaX_7IOWtNqzO0Rh225rXNMMvG8BvbEeMdJjoIrZ5KuWnPDnWnfUmQ8UZMp5dn5h6NvIuQwPN9SU_keeME07vqaY32dDC4kxqODkzKfwfRCBU62OjX5R9uITaRgr7Hw2pTO4M");'></div>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition-colors"></div>
+<div class="absolute bottom-8 left-8 text-white">
+<h4 class="font-serif text-2xl mb-4">Essential Knits</h4>
+<button class="border-b border-white text-[10px] uppercase tracking-[0.2em] pb-1">Shop Now</button>
+</div>
+</div>
+<div class="flex-1 relative group overflow-hidden bg-gray-200">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="Elegant evening wear on a model" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDECsHXjR4_zXBt-4ehhJGwhbLnH9Hk0DraJLo2Tukxy15wzwDX--oYuxS-zaRfvYxj5qHiyGQ8Pzgg4hFQJt4PP1hu7Y2XBV5SX9ThF9YTawogfXTtlv2zWNalS_QCIz8zqobl_3LV0Qgz-6nKeK5Lfm7x8fvLxX3mtRq_XASSWmF8WFVAUPKzyOZzP7xEhh8R3G-ZjKC8c2VpoiUptbZZTYqG_1N_6_CbiSHNTVRaVyKj-ZMnyq24RKfPpcjTRLNYOfE5EgZCaJY");'></div>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition-colors"></div>
+<div class="absolute bottom-8 left-8 text-white">
+<h4 class="font-serif text-2xl mb-4">Occasion Wear</h4>
+<button class="border-b border-white text-[10px] uppercase tracking-[0.2em] pb-1">Shop Now</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Trending Now Section -->
+<section class="bg-white dark:bg-background-dark py-24">
+<div class="max-w-7xl mx-auto px-6">
+<h3 class="font-serif text-4xl mb-12 text-center">Trending Now</h3>
+<div class="flex gap-6 overflow-x-auto hide-scrollbar pb-10">
+<!-- Product Card 1 -->
+<div class="min-w-[300px] md:min-w-[350px] group cursor-pointer">
+<div class="relative aspect-[3/4] bg-gray-100 overflow-hidden mb-4">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="beige cashmere coat" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCjefRmKh9Ku3PvgSntBasogV94LwdiqA8R9C2_2nlNFaJikk5taowM4bTHAvX6euda-KAUqoUf8a_6vdo_J4ge4DlguYCdXAEwKFpauu5mD0JNhYGz_G53winsOMhOOiJDyUxMkXLeaDGzT1p55sqZW-kwL9UU2hKOCf4VWN1hrGDylrRnaRMU0ngc2bIWnIPRuzfAEBXHs4ejePYOC48a4l-VJ5UgHA78nQw8drISg0KK1-0slJxAdB1pCBdt6jjnLl_vU5xFIkc");'></div>
+<div class="absolute bottom-0 left-0 right-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+<button class="w-full bg-neutral-charcoal text-white py-4 text-xs font-bold uppercase tracking-widest flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-sm">add</span> Add to Bag
+                            </button>
+</div>
+<button class="absolute top-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined">favorite</span>
+</button>
+</div>
+<h5 class="font-bold text-sm tracking-tight mb-1">CASHMERE OVERCOAT</h5>
+<p class="text-gray-500 dark:text-gray-400 text-xs uppercase tracking-widest mb-1">Outerwear</p>
+<p class="font-serif text-lg">$850.00</p>
+</div>
+<!-- Product Card 2 -->
+<div class="min-w-[300px] md:min-w-[350px] group cursor-pointer">
+<div class="relative aspect-[3/4] bg-gray-100 overflow-hidden mb-4">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="black silk evening dress" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAffqwN00XAl1h8G56Fp3FL4FVgQq6265FlcgMp1XR4imu6kGs-sElH9ahoLEcgSwnBR3piVDMKMMtznRpocdlTmWhF0T9sZaCGZXR_mpWj7CBSmHem_96MI3-FJeqslO0lsqcHvxfxyzN2ypDXOO3v8IpQtYWB1A0tM06goZl8l1uj9RYt_hEO91TDXjqLp147XDhZA_gLlc0HfNzqnEagJcesiR8jRmDnqNCk8hxyiCgHLHGUikP5hdkdXPkCB5GHbNgtgpNRxv4");'></div>
+<div class="absolute bottom-0 left-0 right-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+<button class="w-full bg-neutral-charcoal text-white py-4 text-xs font-bold uppercase tracking-widest flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-sm">add</span> Add to Bag
+                            </button>
+</div>
+</div>
+<h5 class="font-bold text-sm tracking-tight mb-1">SILK MAXI DRESS</h5>
+<p class="text-gray-500 dark:text-gray-400 text-xs uppercase tracking-widest mb-1">Dresses</p>
+<p class="font-serif text-lg">$420.00</p>
+</div>
+<!-- Product Card 3 -->
+<div class="min-w-[300px] md:min-w-[350px] group cursor-pointer">
+<div class="relative aspect-[3/4] bg-gray-100 overflow-hidden mb-4">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="minimal leather handbag" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCd-a8CTigA31Y7IXeIOsjLxTEQemi0DLysgX3O1VbppzoddGlcUoxBv9xppfgFWsZhbcoR6kg159PMhox7bOpZ03M5Iti5CAc9IauMza5nikPXFKUL9PG2BMPFrIdpRNrvqdaet-YArEeN_WmNLXMlhVQY2wc74BPkxyB5r9ldN4SZuMtFGo6ROrt9y3pBZgGr9jm0n3WRkiS4InS2EMPM7ULK8rg0VAvlrOm9Wx-kYYZq4ekPVPeDSBKDvCZyOJw7x-9LQgonDac");'></div>
+<div class="absolute bottom-0 left-0 right-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+<button class="w-full bg-neutral-charcoal text-white py-4 text-xs font-bold uppercase tracking-widest flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-sm">add</span> Add to Bag
+                            </button>
+</div>
+</div>
+<h5 class="font-bold text-sm tracking-tight mb-1">MÉTIER TOTE BAG</h5>
+<p class="text-gray-500 dark:text-gray-400 text-xs uppercase tracking-widest mb-1">Accessories</p>
+<p class="font-serif text-lg">$1,150.00</p>
+</div>
+<!-- Product Card 4 -->
+<div class="min-w-[300px] md:min-w-[350px] group cursor-pointer">
+<div class="relative aspect-[3/4] bg-gray-100 overflow-hidden mb-4">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="white linen shirt" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCUtjfQ10jwehXkcpLnxXaE6TvnZFHvmgbhTqvN_SXmmdeSruS15OomGGFDe5led_XYN24rucRb1oWId0He6LcrfVvYzxIUrcOAJ3NqshUL4XHp82kgcMVVHvAld2rYu56qTFlUWPq0mHaj0Ify9TbNs4qOXhvSs4mMC9cYMnJzBkMUQ6e3GUZ58E2v0qfWFby2NFh1jX1MRFC8lbYnobMQBjhfP1NUnsXu7hLxfgwJunGkv4ItF-saIQpDZsY0t2xSRJvUL3UgP_E");'></div>
+<div class="absolute bottom-0 left-0 right-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+<button class="w-full bg-neutral-charcoal text-white py-4 text-xs font-bold uppercase tracking-widest flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-sm">add</span> Add to Bag
+                            </button>
+</div>
+</div>
+<h5 class="font-bold text-sm tracking-tight mb-1">RELAXED LINEN SHIRT</h5>
+<p class="text-gray-500 dark:text-gray-400 text-xs uppercase tracking-widest mb-1">Shirts</p>
+<p class="font-serif text-lg">$185.00</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Brand Philosophy Section -->
+<section class="py-24 bg-background-light dark:bg-gray-950">
+<div class="max-w-4xl mx-auto text-center px-6">
+<span class="material-symbols-outlined text-primary text-5xl mb-6">workspace_premium</span>
+<h3 class="font-serif text-3xl md:text-5xl mb-8 leading-tight">Crafting the future of fashion through intentional design and sustainable luxury.</h3>
+<p class="text-gray-600 dark:text-gray-400 text-lg mb-12 leading-relaxed">
+                At LUXE, we believe that style should be effortless, and luxury should be conscious. Every piece in our collection is crafted with the highest quality materials and ethical practices to ensure they remain staples in your wardrobe for years to come.
+            </p>
+<a class="inline-block border-b-2 border-primary pb-2 font-bold tracking-[0.2em] text-sm uppercase hover:text-primary transition-colors" href="#">Our Story</a>
+</div>
+</section>
+<!-- Newsletter -->
+<section class="border-t border-gray-200 dark:border-gray-800 py-20 px-6">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div>
+<h3 class="font-serif text-3xl mb-4">Join The Circle</h3>
+<p class="text-gray-500 dark:text-gray-400">Subscribe for early access to new collections, editorial stories, and exclusive events.</p>
+</div>
+<form class="flex w-full">
+<input class="flex-grow bg-transparent border-t-0 border-l-0 border-r-0 border-b-2 border-gray-300 dark:border-gray-700 focus:ring-0 focus:border-primary px-0 py-4 text-lg outline-none transition-colors" placeholder="Email Address" type="email"/>
+<button class="border-b-2 border-gray-300 dark:border-gray-700 px-6 py-4 uppercase text-xs font-bold tracking-[0.2em] hover:border-primary hover:text-primary transition-all" type="submit">Sign Up</button>
+</form>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-neutral-charcoal text-white pt-20 pb-10 px-6">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
+<div>
+<h2 class="font-serif text-2xl mb-8">LUXE</h2>
+<p class="text-gray-400 text-sm leading-relaxed mb-6">Defining modern luxury since 2012. Our mission is to provide timeless apparel for the conscious modern individual.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-white hover:text-black transition-all" href="#"><span class="material-symbols-outlined text-sm">public</span></a>
+<a class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-white hover:text-black transition-all" href="#"><span class="material-symbols-outlined text-sm">photo_camera</span></a>
+<a class="w-10 h-10 rounded-full border border-gray-700 flex items-center justify-center hover:bg-white hover:text-black transition-all" href="#"><span class="material-symbols-outlined text-sm">alternate_email</span></a>
+</div>
+</div>
+<div>
+<h6 class="text-xs uppercase tracking-widest font-bold mb-8">Collections</h6>
+<ul class="space-y-4 text-sm text-gray-400">
+<li><a class="hover:text-white transition-colors" href="#">New Arrivals</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Best Sellers</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Men's Apparel</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Women's Apparel</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Accessories</a></li>
+</ul>
+</div>
+<div>
+<h6 class="text-xs uppercase tracking-widest font-bold mb-8">Support</h6>
+<ul class="space-y-4 text-sm text-gray-400">
+<li><a class="hover:text-white transition-colors" href="#">Contact Us</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Shipping &amp; Returns</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Order Tracking</a></li>
+<li><a class="hover:text-white transition-colors" href="#">Size Guide</a></li>
+<li><a class="hover:text-white transition-colors" href="#">FAQs</a></li>
+</ul>
+</div>
+<div>
+<h6 class="text-xs uppercase tracking-widest font-bold mb-8">Visit Us</h6>
+<p class="text-gray-400 text-sm mb-4">742 Madison Ave,<br/>New York, NY 10065</p>
+<p class="text-gray-400 text-sm mb-2">Mon - Sat: 10:00 - 19:00</p>
+<p class="text-gray-400 text-sm">Sun: 12:00 - 18:00</p>
+</div>
+</div>
+<div class="max-w-7xl mx-auto border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-gray-500 text-[10px] uppercase tracking-widest">© 2024 LUXE ATELIER. ALL RIGHTS RESERVED.</p>
+<div class="flex gap-8 text-[10px] uppercase tracking-widest text-gray-500">
+<a class="hover:text-white" href="#">Privacy Policy</a>
+<a class="hover:text-white" href="#">Terms of Service</a>
+<a class="hover:text-white" href="#">Accessibility</a>
+</div>
+</div>
+</footer>
+</body></html>
